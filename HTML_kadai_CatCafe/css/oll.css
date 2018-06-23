@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+header{
+  background-image: url("../image/haikei1.jpg");
+  overflow: hidden;
+}
+
+main{
+  background-image: url("../image/haikei2.png");
+  overflow:hidden;
+  height: 100%;
+}
+
+img{
+  width: auto;
+/*  padding-top: 5px;
+  padding-bottom: 5px;*/
+}
+
+img.center_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.maru_img{
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+}
+
+img.img_right{
+  text-align: left;
+}
+
+div#mametisiki{
+  margin: 10px;
+  margin-right: 50px;
+  float: right;
+}
+
+ul.navber{
+  text-align: center;
+  margin-top: 40px;
+}
+
+ul li{
+  display: inline-block;
+  text-decoration: none;
+  width: 100px;
+}
+
+.LeftBlank{
+  margin-left: 150px;
+}
+
+h1{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+
+.center_box{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.cat_box{
+  overflow:hidden;
+  text-align: center;
+}

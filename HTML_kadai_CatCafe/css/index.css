@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+div.kanban{
+  display: inline-block;
+  width: 250px;
+}
+
+div.CafeDescription{
+    max-width: 800px;
+}
+
+img.

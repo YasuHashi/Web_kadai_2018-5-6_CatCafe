@@ -1,0 +1,29 @@
+main div img{
+  width: 200px;
+  height: 200px;
+}
+
+p.AutoIndent{
+  word-wrap: break-word;
+}
+
+.normal img{
+  /*float: right;*/
+}
+
+.normal{
+  width: auto;
+  overflow: hidden;
+}
+
+.TextBox,img{
+  /*vertical-align: top;*/
+  /*width: 50%;*/
+}
+
+div.Image_right{
+	height: 100%;
+	width: auto;
+	float: right;
+  /*display: inline-block;*/
+}
