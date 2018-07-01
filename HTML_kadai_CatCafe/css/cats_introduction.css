@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 div.CatDescription{
-  max-width: 800px;
+  max-width: 80%;
+  padding: 30px;
 }
 
 div.Box{
@@ -22,7 +23,7 @@ div.CatBox{
 div.CatBox img{
   float: left;
   margin-left: 42px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 div.CatBox p{

@@ -11,12 +11,18 @@ body{
 header{
   background-image: url("../image/haikei1.jpg");
   overflow: hidden;
+  padding-bottom: 10px;
+}
+
+footer{
+background-color: #D9D9D9;
+height: 100px;
 }
 
 main{
   background-image: url("../image/haikei2.png");
   overflow:hidden;
-  height: 100%;
+  height: auto;
 }
 
 img{
@@ -29,6 +35,8 @@ img.center_img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px; 
 }
 
 img.maru_img{
@@ -43,7 +51,7 @@ img.img_right{
 
 div#mametisiki{
   margin: 10px;
-  margin-right: 50px;
+  margin-right: 30px;
   float: right;
 }
 
@@ -52,7 +60,7 @@ ul.navber{
   margin-top: 40px;
 }
 
-ul li{
+ul.navber li{
   display: inline-block;
   text-decoration: none;
   width: 100px;
@@ -78,3 +86,15 @@ div.cat_box{
   overflow:hidden;
   text-align: center;
 }
+
+ul.navber li a{
+  padding: 5px;
+  background-color: #FACC2E;
+  border-radius: 50%;
+}
+
+header img{
+     width: auto;
+   max-height: 300px;
+}
+

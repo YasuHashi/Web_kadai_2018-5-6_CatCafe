@@ -2,11 +2,34 @@
 
 div.kanban{
   display: inline-block;
-  width: 250px;
+  width: 300px;
+  margin: 50px;
+  background-image: url(../image/korukubo-do.jpg);
+  background-size: 100%;
 }
 
 div.CafeDescription{
     max-width: 800px;
 }
 
-img.
+div.CatBox{
+  display: inline-block;
+  width: 400px;
+  height: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-image: url("../image/korukubo-do.jpg");
+  background-size: 100%;
+}
+
+div.CatBox img{
+  float: left;
+  margin-left: 42px;
+  margin-top: 40px;
+}
+
+div.CatBox p{
+  margin-right: 40px;
+  margin-top: 60px;
+}
