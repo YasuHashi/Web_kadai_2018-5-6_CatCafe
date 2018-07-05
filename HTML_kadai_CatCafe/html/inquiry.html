@@ -6,6 +6,7 @@
     <title>猫カフェtop</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/oll.css">
+    <link rel="stylesheet" href="../css/inquiry.css">
   </head>
 
   <body>
@@ -29,15 +30,31 @@
     <main>
     <div>
       <h3>お客様の声をお聞かせください！</h3>
-      <div>
+      <p>
         従業員一同、誠心誠意ネコちゃんとお客様の快適な環境作りに励んでまいります！
-      </div>
-      <div>
-        下記のフォームに、「CatCafe HASHITANI」にお気づきなった点がございましたらご記入ください。<br>
+      </p>
+      <p>
+        下記のフォームに、「CatCafe HASHITANI」にお気づきなった点がございましたらご記入ください。
+      </p>
+      <p>
         また、気に入ったところや新しく取り入れてほしいアイデアなどがあればよろしければお願いします。
-      </div>
+      </p>
       <form>
-
+        <div>
+          <label for="name">お名前:</label>
+          <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+          <label for="mail">メールアドレス:</label>
+          <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+          <label for="msg">お客様の声:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+          <button type="submit">送信</button>
+        </div>
       </form>
     </div>
     </main>

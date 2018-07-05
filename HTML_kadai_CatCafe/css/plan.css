@@ -14,11 +14,11 @@ p.AutoIndent{
 .normal{
   width: auto;
   overflow: hidden;
+  margin: 20px;
 }
 
-.TextBox,img{
-  /*vertical-align: top;*/
-  /*width: 50%;*/
+.TextBox{
+  margin-left: 0;
 }
 
 div.Image_right{
@@ -26,4 +26,21 @@ div.Image_right{
 	width: auto;
 	float: right;
   /*display: inline-block;*/
+}
+
+div.box{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.isogasi{
+  width: 100%;
+  margin: 20px;
+}
+
+.nonbiri{
+  width: 100%;
 }
